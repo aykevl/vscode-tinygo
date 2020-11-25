@@ -1,0 +1,53 @@
+{
+    "objects": [
+        {
+            "type": "device",
+            "id": "arduino",
+            "device": "arduino-nano33",
+            "x": 20,
+            "y": 10
+        },
+        {
+            "id": "ws2812-0",
+            "type": "ws2812",
+            "x": 20,
+            "y": 150
+        },
+        {
+            "id": "ws2812-1",
+            "type": "ws2812",
+            "x": 60,
+            "y": 150
+        },
+        {
+            "id": "ws2812-2",
+            "type": "ws2812",
+            "x": 100,
+            "y": 150
+        },
+        {
+            "id": "ws2812-3",
+            "type": "ws2812",
+            "x": 140,
+            "y": 150
+        }
+    ],
+    "wires": [
+        {
+            "from": {"id": "arduino",  "pin": "D2"},
+            "to":   {"id": "ws2812-0", "pin": "din"}
+        },
+        {
+            "from": {"id": "ws2812-0", "pin": "dout"},
+            "to":   {"id": "ws2812-1", "pin": "din"}
+        },
+        {
+            "from": {"id": "ws2812-1", "pin": "dout"},
+            "to":   {"id": "ws2812-2", "pin": "din"}
+        },
+        {
+            "from": {"id": "ws2812-2", "pin": "dout"},
+            "to":   {"id": "ws2812-3", "pin": "din"}
+        }
+    ]
+}

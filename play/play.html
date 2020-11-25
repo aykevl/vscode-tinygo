@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="play.css"/>
+    <script src="wiring.js" defer></script>
+    <script src="devices.js" defer></script>
+    <script src="runner.js" defer></script>
+    <script src="play.js" defer></script>
+  </head>
+  <body>
+    <svg id="viewport">
+      <defs>
+        <filter id="device-shadow">
+          <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#888c"/>
+        </filter>
+      </defs>
+
+      <g class="objects"></g>
+      <g class="wires"></g>
+      <g class="overlays"></g>
+    </svg>
+    <div id="info" class="panel">
+      <div class="topbar">
+        <h2>Info</h2><a href class="tab selected" data-for="#info-devices">Devices</a><a href class="tab" data-for="#info-pins">Pins</a><a href class="tab" data-for="#info-properties">Properties</a>
+      </div>
+      <div id="info-devices" class="tabcontent selected">
+      </div>
+      <div id="info-pins" class="tabcontent">
+      </div>
+      <div id="info-properties" class="tabcontent">
+      </div>
+    </div>
+    <div id="add-device">
+      <button title="Add Device">+</button>
+      <div id="add-device-dropdown">
+        <div class="device" data-type="ws2812">WS2812</div>
+        <div class="device" data-type="led">LED</div>
+        <div class="device" data-type="st7789">ST7789 240x240 display</div>
+      </div>
+    </div>
+  </body>
+</html>

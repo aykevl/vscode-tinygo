@@ -1,0 +1,211 @@
+{
+    "name": "Arduino Nano 33 IoT",
+    "background": "arduino-nano.svg",
+    "width": 45,
+    "height": 18,
+    "objects": [
+        {
+            "type": "device",
+            "id": "mcu",
+            "device": "atsamd21",
+            "tinygo_buildTags": ["arduino_nano33"]
+        },
+        {
+            "type": "led",
+            "id": "led-power",
+            "name": "power LED",
+            "shape": "smd-2012",
+            "x": 1.5,
+            "y": 3,
+            "color": "#00ff00"
+        },
+        {
+            "type": "led",
+            "id": "led1",
+            "name": "LED",
+            "shape": "smd-2012",
+            "x": 1.5,
+            "y": 14,
+            "color": "#ffff00"
+        }
+    ],
+    "pins": [
+        {
+            "name": "TX1",
+            "x": 5.22,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PB22"}
+            ]
+        },
+        {
+            "name": "RX0",
+            "x": 7.76,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PB23"}
+            ]
+        },
+        {
+            "name": "D2",
+            "x": 15.38,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PB10"}
+            ]
+        },
+        {
+            "name": "D3",
+            "x": 17.92,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PB11"}
+            ]
+        },
+        {
+            "name": "D4",
+            "x": 20.46,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PB11"}
+            ]
+        },
+        {
+            "name": "D5",
+            "x": 23.00,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA5"}
+            ]
+        },
+        {
+            "name": "D6",
+            "x": 25.54,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA4"}
+            ]
+        },
+        {
+            "name": "D7",
+            "x": 28.08,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA6"}
+            ]
+        },
+        {
+            "name": "D8",
+            "x": 30.62,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA18"}
+            ]
+        },
+        {
+            "name": "D9",
+            "x": 33.16,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA20"}
+            ]
+        },
+        {
+            "name": "D10",
+            "x": 35.70,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA21"}
+            ]
+        },
+        {
+            "name": "D11",
+            "x": 38.24,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA16"}
+            ]
+        },
+        {
+            "name": "D12",
+            "x": 40.78,
+            "y": 17,
+            "connected": [
+                {"id": "mcu", "pin": "PA19"}
+            ]
+        },
+        {
+            "name": "D13",
+            "x": 40.78,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PA17"},
+                {"id": "led1", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "A0",
+            "x": 33.16,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PA2"}
+            ]
+        },
+        {
+            "name": "A1",
+            "x": 30.62,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PB2"}
+            ]
+        },
+        {
+            "name": "A2",
+            "x": 28.08,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PA11"}
+            ]
+        },
+        {
+            "name": "A3",
+            "x": 25.54,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PA10"}
+            ]
+        },
+        {
+            "name": "A4",
+            "x": 23.00,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PB8"}
+            ]
+        },
+        {
+            "name": "A5",
+            "x": 20.46,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PB9"}
+            ]
+        },
+        {
+            "name": "A6",
+            "x": 17.92,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PA9"}
+            ]
+        },
+        {
+            "name": "A7",
+            "x": 15.38,
+            "y": 1,
+            "connected": [
+                {"id": "mcu", "pin": "PB3"}
+            ]
+        }
+    ]
+}

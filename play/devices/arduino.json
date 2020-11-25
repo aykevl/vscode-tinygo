@@ -1,0 +1,185 @@
+{
+    "name": "Arduino",
+    "background": "arduino.svg",
+    "width": 74.8,
+    "height": 53.3,
+    "objects": [
+        {
+            "type": "device",
+            "id": "mcu",
+            "device": "atmega328p",
+            "tinygo_buildTags": ["arduino"]
+        },
+        {
+            "type": "led",
+            "id": "led1",
+            "shape": "smd-2012",
+            "x": 25.5,
+            "y": 10.0,
+            "color": "#00ff00"
+        }
+    ],
+    "pins": [
+        {
+            "name": "D0",
+            "x": 69.72,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD0"}
+            ]
+        },
+        {
+            "name": "D1",
+            "x": 67.18,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD1"}
+            ]
+        },
+        {
+            "name": "D2",
+            "x": 64.67,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD2"}
+            ]
+        },
+        {
+            "name": "D3",
+            "x": 62.1,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD3"}
+            ]
+        },
+        {
+            "name": "D4",
+            "x": 59.56,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD4"}
+            ]
+        },
+        {
+            "name": "D5",
+            "x": 57.02,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD5"}
+            ]
+        },
+        {
+            "name": "D6",
+            "x": 54.48,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD6"}
+            ]
+        },
+        {
+            "name": "D7",
+            "x": 51.94,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PD7"}
+            ]
+        },
+        {
+            "name": "D8",
+            "x": 48.13,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PB0"}
+            ]
+        },
+        {
+            "name": "D9",
+            "x": 45.59,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PB1"}
+            ]
+        },
+        {
+            "name": "D10",
+            "x": 43.05,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PB2"}
+            ]
+        },
+        {
+            "name": "D11",
+            "x": 40.51,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PB3"}
+            ]
+        },
+        {
+            "name": "D12",
+            "x": 37.97,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PB4"}
+            ]
+        },
+        {
+            "name": "D13",
+            "x": 35.43,
+            "y": 2.54,
+            "connected": [
+                {"id": "mcu", "pin": "PB5"},
+                {"id": "led1", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "D14",
+            "x": 57.02,
+            "y": 50.76,
+            "connected": [
+                {"id": "mcu", "pin": "PC0"}
+            ]
+        },
+        {
+            "name": "D15",
+            "x": 59.56,
+            "y": 50.76,
+            "connected": [
+                {"id": "mcu", "pin": "PC1"}
+            ]
+        },
+        {
+            "name": "D16",
+            "x": 62.10,
+            "y": 50.76,
+            "connected": [
+                {"id": "mcu", "pin": "PC2"}
+            ]
+        },
+        {
+            "name": "D17",
+            "x": 64.64,
+            "y": 50.76,
+            "connected": [
+                {"id": "mcu", "pin": "PC3"}
+            ]
+        },
+        {
+            "name": "D18",
+            "x": 67.18,
+            "y": 50.76,
+            "connected": [
+                {"id": "mcu", "pin": "PC4"}
+            ]
+        },
+        {
+            "name": "D19",
+            "x": 69.72,
+            "y": 50.76,
+            "connected": [
+                {"id": "mcu", "pin": "PC5"}
+            ]
+        }
+    ]
+}

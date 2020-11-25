@@ -19,7 +19,8 @@
 	},
 	"activationEvents": [
 		"onLanguage:go",
-		"onCommand:vscode-tinygo.selectTarget"
+		"onCommand:vscode-tinygo.selectTarget",
+		"onCommand:vscode-tinygo.showPreviewToSide"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
@@ -27,8 +28,22 @@
 			{
 				"command": "vscode-tinygo.selectTarget",
 				"title": "TinyGo target"
+			},
+			{
+				"command": "vscode-tinygo.showPreviewToSide",
+				"title": "TinyGo Preview",
+				"icon": "$(open-preview)"
 			}
-		]
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == go && tinygoHasPreview",
+					"command": "vscode-tinygo.showPreviewToSide",
+					"group": "navigation"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"compile": "tsc -p ./",

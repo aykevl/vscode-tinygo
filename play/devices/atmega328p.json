@@ -1,0 +1,30 @@
+{
+    "type": "mcu",
+    "name": "ATmega328p",
+    "pins": [
+        {"name": "PB0"},
+        {"name": "PB1"},
+        {"name": "PB2"},
+        {"name": "PB3"},
+        {"name": "PB4"},
+        {"name": "PB5"},
+        {"name": "PB6"},
+        {"name": "PB7"},
+        {"name": "PC0"},
+        {"name": "PC1"},
+        {"name": "PC2"},
+        {"name": "PC3"},
+        {"name": "PC4"},
+        {"name": "PC5"},
+        {"name": "PC6"},
+        {"name": "PC7"},
+        {"name": "PD0"},
+        {"name": "PD1"},
+        {"name": "PD2"},
+        {"name": "PD3"},
+        {"name": "PD4"},
+        {"name": "PD5"},
+        {"name": "PD6"},
+        {"name": "PD7"}
+    ]
+}

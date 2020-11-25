@@ -1,0 +1,517 @@
+{
+    "name": "BBC micro:bit",
+    "background": "microbit.svg",
+    "width": 52,
+    "height": 42,
+    "objects": [
+        {
+            "type": "device",
+            "id": "mcu",
+            "device": "nrf51822",
+            "tinygo_buildTags": ["microbit"]
+        },
+        {
+            "type": "led",
+            "id": "led1",
+            "name": "LED 1",
+            "shape": "smd-2012",
+            "x": 17.5,
+            "y": 13,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led2",
+            "name": "LED 2",
+            "shape": "smd-2012",
+            "x": 21.5,
+            "y": 13,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led3",
+            "name": "LED 3",
+            "shape": "smd-2012",
+            "x": 25.5,
+            "y": 13,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led4",
+            "name": "LED 4",
+            "shape": "smd-2012",
+            "x": 29.5,
+            "y": 13,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led5",
+            "name": "LED 5",
+            "shape": "smd-2012",
+            "x": 33.5,
+            "y": 13,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led6",
+            "name": "LED 6",
+            "shape": "smd-2012",
+            "x": 17.5,
+            "y": 17,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led7",
+            "name": "LED 7",
+            "shape": "smd-2012",
+            "x": 21.5,
+            "y": 17,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led8",
+            "name": "LED 8",
+            "shape": "smd-2012",
+            "x": 25.5,
+            "y": 17,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led9",
+            "name": "LED 9",
+            "shape": "smd-2012",
+            "x": 29.5,
+            "y": 17,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led10",
+            "name": "LED 10",
+            "shape": "smd-2012",
+            "x": 33.5,
+            "y": 17,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led11",
+            "name": "LED 11",
+            "shape": "smd-2012",
+            "x": 17.5,
+            "y": 21,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led12",
+            "name": "LED 12",
+            "shape": "smd-2012",
+            "x": 21.5,
+            "y": 21,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led13",
+            "name": "LED 13",
+            "shape": "smd-2012",
+            "x": 25.5,
+            "y": 21,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led14",
+            "name": "LED 14",
+            "shape": "smd-2012",
+            "x": 29.5,
+            "y": 21,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led15",
+            "name": "LED 15",
+            "shape": "smd-2012",
+            "x": 33.5,
+            "y": 21,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led16",
+            "name": "LED 16",
+            "shape": "smd-2012",
+            "x": 17.5,
+            "y": 25,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led17",
+            "name": "LED 17",
+            "shape": "smd-2012",
+            "x": 21.5,
+            "y": 25,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led18",
+            "name": "LED 18",
+            "shape": "smd-2012",
+            "x": 25.5,
+            "y": 25,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led19",
+            "name": "LED 19",
+            "shape": "smd-2012",
+            "x": 29.5,
+            "y": 25,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led20",
+            "name": "LED 20",
+            "shape": "smd-2012",
+            "x": 33.5,
+            "y": 25,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led21",
+            "name": "LED 21",
+            "shape": "smd-2012",
+            "x": 17.5,
+            "y": 29,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led22",
+            "name": "LED 22",
+            "shape": "smd-2012",
+            "x": 21.5,
+            "y": 29,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led23",
+            "name": "LED 23",
+            "shape": "smd-2012",
+            "x": 25.5,
+            "y": 29,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led24",
+            "name": "LED 24",
+            "shape": "smd-2012",
+            "x": 29.5,
+            "y": 29,
+            "rotation": 90,
+            "color": "red"
+        },
+        {
+            "type": "led",
+            "id": "led25",
+            "name": "LED 25",
+            "shape": "smd-2012",
+            "x": 33.5,
+            "y": 29,
+            "rotation": 90,
+            "color": "red"
+        }
+    ],
+    "pins": [
+        {
+            "name": "P0",
+            "x": 4.41,
+            "y": 41,
+            "svgId": "pin-P0",
+            "connected": [
+                {"id": "mcu", "pin": "P0_03"}
+            ]
+        },
+        {
+            "name": "P1",
+            "x": 14.57,
+            "y": 41,
+            "svgId": "pin-P1",
+            "connected": [
+                {"id": "mcu", "pin": "P0_02"}
+            ]
+        },
+        {
+            "name": "P2",
+            "x": 26,
+            "y": 41,
+            "svgId": "pin-P2",
+            "connected": [
+                {"id": "mcu", "pin": "P0_01"}
+            ]
+        },
+        {
+            "name": "P3",
+            "x": 1.235,
+            "y": 41,
+            "svgId": "pin-P3",
+            "connected": [
+                {"id": "mcu", "pin": "P0_04"},
+                {"id": "led1", "pin": "cathode"},
+                {"id": "led15", "pin": "cathode"},
+                {"id": "led23", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "P4",
+            "x": 7.585,
+            "y": 41,
+            "svgId": "pin-P4",
+            "connected": [
+                {"id": "mcu", "pin": "P0_05"},
+                {"id": "led3", "pin": "cathode"},
+                {"id": "led11", "pin": "cathode"},
+                {"id": "led25", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "P5",
+            "x": 8.855,
+            "y": 41,
+            "svgId": "pin-P5",
+            "connected": [
+                {"id": "mcu", "pin": "P0_17"}
+            ]
+        },
+        {
+            "name": "P6",
+            "x": 10.125,
+            "y": 41,
+            "svgId": "pin-P6",
+            "connected": [
+                {"id": "mcu", "pin": "P0_12"},
+                {"id": "led12", "pin": "cathode"},
+                {"id": "led14", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "P7",
+            "x": 11.395,
+            "y": 41,
+            "svgId": "pin-P7",
+            "connected": [
+                {"id": "mcu", "pin": "P0_11"},
+                {"id": "led10", "pin": "cathode"},
+                {"id": "led16", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "P8",
+            "x": 17.745,
+            "y": 41,
+            "svgId": "pin-P8",
+            "connected": [
+                {"id": "mcu", "pin": "P0_18"}
+            ]
+        },
+        {
+            "name": "P9",
+            "x": 19.015,
+            "y": 41,
+            "svgId": "pin-P9",
+            "connected": [
+                {"id": "mcu", "pin": "P0_10"},
+                {"id": "led9", "pin": "cathode"},
+                {"id": "led17", "pin": "cathode"},
+                {"id": "led22", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "P10",
+            "x": 20.285,
+            "y": 41,
+            "svgId": "pin-P10",
+            "connected": [
+                {"id": "mcu", "pin": "P0_06"},
+                {"id": "led5", "pin": "cathode"},
+                {"id": "led13", "pin": "cathode"},
+                {"id": "led21", "pin": "cathode"}
+            ]
+        },
+        {
+            "name": "P11",
+            "x": 21.555,
+            "y": 41,
+            "svgId": "pin-P11",
+            "connected": [
+                {"id": "mcu", "pin": "P0_26"}
+            ]
+        },
+        {
+            "name": "P12",
+            "x": 22.825,
+            "y": 41,
+            "svgId": "pin-P12",
+            "connected": [
+                {"id": "mcu", "pin": "P0_20"}
+            ]
+        },
+        {
+            "name": "P13",
+            "x": 29.175,
+            "y": 41,
+            "svgId": "pin-P13",
+            "connected": [
+                {"id": "mcu", "pin": "P0_23"}
+            ]
+        },
+        {
+            "name": "P14",
+            "x": 30.445,
+            "y": 41,
+            "svgId": "pin-P14",
+            "connected": [
+                {"id": "mcu", "pin": "P0_22"}
+            ]
+        },
+        {
+            "name": "P15",
+            "x": 31.715,
+            "y": 41,
+            "svgId": "pin-P15",
+            "connected": [
+                {"id": "mcu", "pin": "P0_21"}
+            ]
+        },
+        {
+            "name": "P16",
+            "x": 32.985,
+            "y": 41,
+            "svgId": "pin-P16",
+            "connected": [
+                {"id": "mcu", "pin": "P0_16"}
+            ]
+        },
+        {
+            "name": "P19",
+            "x": 41.875,
+            "y": 41,
+            "svgId": "pin-P19",
+            "connected": [
+                {"id": "mcu", "pin": "P0_00"}
+            ]
+        },
+        {
+            "name": "P20",
+            "x": 43.145,
+            "y": 41,
+            "svgId": "pin-P20",
+            "connected": [
+                {"id": "mcu", "pin": "P0_30"}
+            ]
+        },
+        {
+            "connected": [
+                {"id": "mcu", "pin": "P0_07"},
+                {"id": "led2", "pin": "cathode"},
+                {"id": "led6", "pin": "cathode"},
+                {"id": "led20", "pin": "cathode"}
+            ]
+        },
+        {
+            "connected": [
+                {"id": "mcu", "pin": "P0_08"},
+                {"id": "led4", "pin": "cathode"},
+                {"id": "led7", "pin": "cathode"},
+                {"id": "led19", "pin": "cathode"}
+            ]
+        },
+        {
+            "connected": [
+                {"id": "mcu", "pin": "P0_09"},
+                {"id": "led8", "pin": "cathode"},
+                {"id": "led18", "pin": "cathode"},
+                {"id": "led24", "pin": "cathode"}
+            ]
+        },
+        {
+            "connected": [
+                {"id": "mcu", "pin": "P0_13"},
+                {"id": "led1", "pin": "anode"},
+                {"id": "led3", "pin": "anode"},
+                {"id": "led5", "pin": "anode"},
+                {"id": "led12", "pin": "anode"},
+                {"id": "led16", "pin": "anode"},
+                {"id": "led17", "pin": "anode"},
+                {"id": "led18", "pin": "anode"},
+                {"id": "led19", "pin": "anode"},
+                {"id": "led20", "pin": "anode"}
+            ]
+        },
+        {
+            "connected": [
+                {"id": "mcu", "pin": "P0_14"},
+                {"id": "led2", "pin": "anode"},
+                {"id": "led4", "pin": "anode"},
+                {"id": "led11", "pin": "anode"},
+                {"id": "led13", "pin": "anode"},
+                {"id": "led15", "pin": "anode"},
+                {"id": "led22", "pin": "anode"},
+                {"id": "led24", "pin": "anode"}
+            ]
+        },
+        {
+            "connected": [
+                {"id": "mcu", "pin": "P0_15"},
+                {"id": "led6", "pin": "anode"},
+                {"id": "led7", "pin": "anode"},
+                {"id": "led8", "pin": "anode"},
+                {"id": "led9", "pin": "anode"},
+                {"id": "led10", "pin": "anode"},
+                {"id": "led14", "pin": "anode"},
+                {"id": "led21", "pin": "anode"},
+                {"id": "led23", "pin": "anode"},
+                {"id": "led25", "pin": "anode"}
+            ]
+        }
+    ]
+}
